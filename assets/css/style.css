@@ -1,0 +1,119 @@
+body {
+	background-image: url("../images/sayagata-400px.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+h1,
+h4,
+.navbar-brand {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+.navbar-brand {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 2rem;
+	padding: .25rem;
+}
+
+.nav-link {
+	color: #a7acb0;
+	font-size: 1.25rem;
+}
+
+.border-all {
+	border: 1px solid #dddddd;
+}
+
+.border-bottom {
+	border-bottom: 3px solid lightgray;
+}
+
+.img-small {
+	width: 10%;
+	height: 10%;
+}
+
+.darkaqua {
+	color: #4aaaa5;
+}
+
+.img-gallary {
+   	display:block;
+   	position: relative;
+   	z-index: 1;
+   	width: 100%;
+}
+
+.image-overlay {
+	position: absolute;
+	z-index: 2;
+	bottom: 2.5%;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	width: 91.5%;
+	padding: 10px 0;
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px 0px 8px 8px;
+	border: 1px solid lightgray;
+	color: silver;
+}
+
+textarea {
+	box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 8px 0px 8px 8px;
+	border: 1px solid lightgray;
+	color: silver;
+	max-width: 100%;
+}
+
+input[type="submit"] {
+	width: 120px;
+	height: 40px;
+	margin: 20px 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #4aaaa5;
+
+}
+
+textarea:focus,
+input:focus {
+	color: black;
+	border: 1px solid lightgray;
+}
+
+form p {
+	margin: 8px 0;
+	font-size: 1.17em;
+}
+
+.footer {
+    width: 100%;
+    height: 6%;
+    line-height: 2rem;
+    background-color: dimgray;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+}
+
